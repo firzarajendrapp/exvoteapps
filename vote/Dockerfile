@@ -2,7 +2,9 @@
 FROM schoolofdevops/voteapp-python:v0.1.0
 
 # Set the application directory
-WORKDIR /app
+#WORKDIR /app
+
+WORKDIR /html
 
 # Install our requirements.txt
 ADD requirements.txt /app/requirements.txt
